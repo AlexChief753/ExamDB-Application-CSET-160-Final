@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accounts</title>
+</head>
+<body>
+    <p>Hello, World!</p>
+
+    <form action="/account" name="my_form" id="my_form" method="POST">
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+        <select name="type" id="type">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+        </select>
+        <input type="submit" placeholder="submit">
+    </form>
+
+{{ fname }}
+
+    <p>Goodbye, World!</p>
+</body>
+</html>
